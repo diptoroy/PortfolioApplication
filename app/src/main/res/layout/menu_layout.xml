@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/select_layout"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginLeft="15dp"
+    android:orientation="vertical">
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/select_text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Burger"-->
+    <!--        android:textSize="10sp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/select_image"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/select_image"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/select_image" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/select_dot"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        app:srcCompat="@drawable/menu_selector" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/menu_back"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/menu" />-->
+
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <TextView
+        android:id="@+id/menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Menu"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Portfolio Application</string>
+
+    //Profile Fragment
+    <string name="profile_name">Dipto Roy</string>
+    <string name="profile_profession">Android Developer</string>
+    <string name="profile_location">Rangpur</string>
+    <string name="hireMe_text">Hire Me</string>
+    <string name="dl_cv">Download CV</string>
+
+    //Career Fragment
+    <string name="career_company">Adornment Campus</string>
+    <string name="career_job_position">Android Developer</string>
+    <string name="career_duration">Feb 2021 - Present</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
