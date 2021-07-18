@@ -14,7 +14,9 @@
         android:id="@+id/careerFragment"
         android:name="com.ddev.portfolioapplication.view.CareerFragment"
         android:label="fragment_career"
-        tools:layout="@layout/fragment_career" />
+        tools:layout="@layout/fragment_career" >
+
+    </fragment>
     <fragment
         android:id="@+id/skillFragment"
         android:name="com.ddev.portfolioapplication.view.SkillFragment"

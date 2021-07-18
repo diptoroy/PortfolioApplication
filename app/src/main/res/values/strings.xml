@@ -15,4 +15,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    //Blog Fragment
+    <string name="blog_popular">Popular</string>
+    <string name="blog_recent">Recent</string>
+    <string name="blog_title">Learn OOP and Database!</string>
+    <string name="blog_time">20 min ago</string>
+    <string name="blog_read">read 10 times</string>
+    <string name="blog_category">OOP Concept</string>
+    <string name="blog_author">by Mark</string>
+
+
 </resources>

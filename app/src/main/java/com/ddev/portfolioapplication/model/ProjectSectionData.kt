@@ -5,6 +5,6 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class ProjectSectionData(
-        val projectName: String,
-        val projectImage: Int
+        var projectName: String,
+        var projectImage: Int
 ): Parcelable

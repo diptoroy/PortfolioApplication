@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_project"
+    app:startDestination="@id/allProjectFragment">
+
+    <fragment
+        android:id="@+id/allProjectFragment"
+        android:name="com.ddev.portfolioapplication.AllProjectFragment"
+        android:label="fragment_all_project"
+        tools:layout="@layout/fragment_all_project" />
+    <fragment
+        android:id="@+id/webProjectFragment"
+        android:name="com.ddev.portfolioapplication.view.WebProjectFragment"
+        android:label="fragment_web_project"
+        tools:layout="@layout/fragment_web_project" />
+</navigation>
