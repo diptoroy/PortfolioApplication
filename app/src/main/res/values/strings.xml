@@ -23,6 +23,7 @@
     <string name="blog_read">read 10 times</string>
     <string name="blog_category">OOP Concept</string>
     <string name="blog_author">by Mark</string>
+    <string name="blog_details">Learn OOP and Database!</string>
 
 
 </resources>
